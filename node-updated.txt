@@ -1,0 +1,32 @@
+
+
+                                    NODE Server Creation
+                                ----------------------------
+
+                    1. create server folder
+                    2. create package.json: npm init -y
+                    3. create index.js, .env, .gitignore files in server folder
+                    4. Install express, cors, mongoose, dotenv
+                    5. Import express cors dotenv in index.js
+                    6. create server app using express
+                    7. use cors(), express.json() in server app
+                    8. define port number to run server app
+                    9. Import connection.js file in index.js
+                    10. to define routes for client request, create routes folder and router.js file 
+                        - inside router.js file do following
+                            - import express
+                            - using express create object for router class in order to setup path
+                            - use router object to resolve client request in various server routes
+                    11. create controller folder in order to define logic to resolve the api request
+
+
+                                    MONGODB ATLAS Configuration
+                                -----------------------------------
+
+                    1. copy connection string from ATLAS and paste in .env file
+                    2. create db folder, inside connection.js file
+                    3. in connection.js Import mongoose
+                    4. get database connection string from .env file
+                    5. use mongoose connect MONGODB with node application
+                    6. create model/collection to store products in model folder, productSchema file
+                    7. export model
